@@ -1,0 +1,28 @@
+/**
+ * This code runs a method that starts at negative 4 and adds 18 
+ * to the number until it gets to 86
+ */
+public class SimpleLoop {
+
+	public static void main(String[] args) {
+		
+			
+		
+		//create method
+		countSumNums();
+		
+
+	}
+
+	private static void countSumNums() {
+		// TODO Auto-generated method stub
+		
+		//make for loop
+		for (int i=-4; i<=86; i+=18)
+		
+		//print out the method
+		System.out.println(i);
+			
+	}
+
+}
