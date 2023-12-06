@@ -1,0 +1,61 @@
+
+public class MathStuff {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+		//call method that passed two ints
+		//and multiplies them
+		multTwoNums(5,4);
+		
+		
+		//declare two numbers to test Math methods on
+		int myInt = -4;
+		double myDub = -16.0;
+		
+		//test the sqrt method. it should find the square root
+		double mySqrt = Math.sqrt(myDub);
+		System.out.println(mySqrt);
+		
+		//test the abs method. it should produce what
+		double myAbsDub = Math.abs(myDub);
+		System.out.println(myAbsDub);
+		
+		double myAbsInt = Math.abs(myInt);
+		System.out.println(myAbsInt);
+		
+		
+		//test the pow method
+		//to the power of the second number
+		//it only works with doubles
+		double base = 2.0;
+		double exp = 5.0;
+		double prod = Math.pow(base, exp);
+		System.out.println(prod);
+		
+	}
+
+	private static void multTwoNums(int x, int y)
+	{
+		// TODO Auto-generated method stub
+	
+	//
+	int adder = x;
+	
+	//add x to itself y times
+	for (int i = 1; i <y; i++)
+	{
+	
+		//add x to 
+		x += adder;
+	
+	}
+	
+	//print x
+	System.out.println(x);
+		
+		
+	}
+
+}
