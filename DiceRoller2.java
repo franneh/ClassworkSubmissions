@@ -43,9 +43,37 @@ private static void turnInt(String left, String right) {
 	//print out the integers
 	System.out.println(a+b);
 	
-	
+	//call method that rolls dice
+	rollDice(a,b);
 		
 	}
+
+private static void rollDice(int a, int b) {
+	// TODO Auto-generated method stub
+	//make int that will hold the value of running count
+	int hold = 0;
 	
+	//make loop that iterates the first number 
+	//how many times the user puts it
+	for (int i = 1; i < a + 1; i++) {
+		
+		//make int thats an equal value to one roll
+		int adder = (int)((double)Math.random() * b + 1);
+		
+		//print roll
+		System.out.print(adder);
+		
+		//add current roll to running roll
+		hold += adder;
+		
+	}
+			
+	//print all the rolls
+	System.out.println(hold);
+	
+}
+	
+
+
 	
 }
