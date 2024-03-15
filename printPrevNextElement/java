@@ -4,7 +4,7 @@ public class printPrevNextElement
 	{
 
     //declare double array, named arr, and assign it double data types
-		double[] arr = {2.45, 5.28, 3.19, 1.73, 4.64, 8.24, 9.89}; 
+		double[] arr = 4.54, 2.78, 8.36, 5.71, 6.72, 9.67, 1.74}; 
 
     //declare int
 		int index = 3;
